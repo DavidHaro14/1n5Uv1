@@ -1,0 +1,187 @@
+html{
+	min-height: 100%;
+	position: relative;
+}
+body{
+	text-align: justify;
+	margin:0;
+	margin-bottom: 40px;
+}
+input[type="text"],textarea{
+	text-transform: uppercase;
+}
+#footer{
+	background-color: rgb(226,110,14);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	font-weight: bold;
+	color: white;
+	padding-top: 12px;
+}
+.BtnOrange{
+	/* background-color: rgb(226,110,14); */
+	background-color: rgb(250,105,0);
+	color: #fff;
+	font-weight: bold;
+	border-radius: 0px;
+}
+.BtnGray{
+	background-color: rgb(52,56,56);
+	color: #fff;
+	 font-weight: bold; 
+	border-radius: 0px;
+}
+.BtnRed{
+	background-color: rgb(192,41,66);
+	color: #fff;
+	 font-weight: bold; 
+	border-radius: 0px;
+}
+.BtnGreen{
+	background-color: rgb(13,103,89);
+	color: #fff;
+	 font-weight: bold; 
+	border-radius: 0px;
+}
+.ColorRequired{
+	color: rgb(226,110,14);
+}
+.modal-title{
+	font-weight: bold;
+	text-align: center;
+}
+
+/* menu-top.blade.php */
+.ColorMenuTop{
+	color: rgb(250,250,250);
+}
+.ColorMenuTop:hover{
+	background-color: #fff;
+	color: #333;
+}
+
+/* principal.blade.php */
+.logoinsuvi{
+	height: 40px;
+	width: 160px;
+	margin-left: -54px;
+}
+
+#sidebar-wrapper ul.sidebar-nav li{
+	border-bottom: 1px #333 solid;
+}
+
+.margin-lateral{
+	margin-top: 51px;
+}
+
+.margin-checkbox{
+	margin-top: 25px;
+}
+
+/* Estudio Socioeconomico Familiares btn */
+.margin-btnAdd{
+	margin-top: 20px;
+}
+/* /Familiares */
+
+/* Estudio Socioeconomico Gastos/Ingresos */
+.border-left{
+	border-left: 2px solid;
+	margin-left: 10px;
+}
+/* /Estudio */
+
+/* Regularizacion */
+.margin-checkbox-lote{
+	margin-top: 65px;
+}
+/* /Regularizacion*/
+
+.table-width{
+	margin-left: 25%;
+	width: 50%;
+}
+
+.display-block{
+	display: inline-block;
+}
+
+.size-search{
+	height: 34px;
+}
+
+.btn-search{
+	width: 70px;
+}
+
+.titulo-heading{
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+.btn-menu-margin{
+	margin: 5em;
+}
+
+.cont-btn{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.imgcatalogos{
+	height: 150px;
+	width: 150px;
+	margin: 25px;
+}
+.img-logo{
+	margin-top: 100px;
+	width: 1000px;
+	height: 358px;
+}
+
+.opacity{
+	opacity: 0.7;
+}
+
+.input-success{
+	background-color: #E3F6E5;
+}
+
+.input-error{
+	background-color: #F49292;
+}
+
+.input-abonado{
+	background-color: #F38630;
+	color: #fff;
+	font-weight: bold;
+}
+
+.input-pagado{
+	background-color: rgba(0,100,0,0.8);
+	color: #fff;
+	font-weight: bold;
+}
+
+.input-pagado:hover{
+	color: #000;
+}
+
+.input-abonado:hover{
+	color: #000;
+}
+
+.subtitle{
+	background-color: rgb(52,56,56);
+	color: #fff;
+}
+
+.notificacion_fixed{
+	position:fixed;
+	width: 55%;
+	margin-left:20%;
+}
